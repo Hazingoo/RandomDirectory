@@ -1,0 +1,19 @@
+30 15 3
+bcbbbbccccccbaaaaaabccccccbbbc
+b............................b
+b.B.bbccccccbaaaaaabccccccbb.b
+b............................b
+bccbbbbccccccbaaaaaabccccccbbb
+b............................b
+b.bbccccccbaaaaaabccccccbbbbb.
+b............................b
+bccbbcc.B.baabbbbccccccbaaaaaa
+b............................b
+b.bbccccccbaaaaaabccccccbbbbb.
+b............................b
+bccbbbbccccccbaaaaaabccccccbbb
+b............................b
+bcbbbbccccccbaaaaaabccccccbbbc
+5 
+10 
+15
