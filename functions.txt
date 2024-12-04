@@ -1,0 +1,60 @@
+// how to compile:
+
+
+// vector
+int array[5] = {1, 2, 3, 4, 5};  
+vector<int> vec = {1, 2, 3};  
+vec.push_back(4);                
+vec.pop_back();                   
+vec.size(); 
+
+// string
+str1.length();                    // Get string length
+str1.substr(0, 3);               // Get substring
+str1.find("lo");                 // Find substring
+
+// String Conversion
+string num_str = to_string(123);  // Convert number to string
+int num = stoi("123");           // String to integer
+double d = stod("3.14");         // String to double
+float f = stof("3.14");          // String to float
+
+// Custom Struct Example
+struct Person {
+    string name;
+    int age;
+    double salary;
+    
+    // Constructor
+    Person(string n, int a, double s) : name(n), age(a), salary(s) {}
+};
+
+
+// Sort by age
+sort(people.begin(), people.end(), 
+    [](const Person& a, const Person& b) {
+        return a.age < b.age;
+    });
+
+
+// Advanced Vector Operations
+// Find element
+auto it = find(vec.begin(), vec.end(), 3);
+
+// Count occurrences
+int count3 = count(vec.begin(), vec.end(), 3);
+
+// Find maximum/minimum elements
+auto maxElement = max_element(vec.begin(), vec.end());
+auto minElement = min_element(vec.begin(), vec.end());
+
+ // Removing 7 from vector v
+    v.erase(find(v.begin(), v.end(), 7));
+
+// remove based on index
+ vec.erase(vec.begin() + index);
+
+ // Tie for unpacking
+int x;
+string y;
+tie(x, y) = p;                      // Unpack pair into variables
